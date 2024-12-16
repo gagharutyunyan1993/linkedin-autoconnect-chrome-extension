@@ -20,7 +20,7 @@ export interface ChromePortMessage {
 export enum LinkedInCssSelector {
   NextPageButton = "button.artdeco-pagination__button--next",
   ConnectButtonFromMyNetworkPage = "div.discover-entity-type-card__bottom-container button.ember-view:enabled:not(.artdeco-button--muted):not(.artdeco-button--full)",
-  ConnectButtonFromSearchPage = "div.search-results-container button.ember-view:enabled:not(.artdeco-button--muted)",
+  ConnectButtonFromSearchPage = "div.search-results-container button.artdeco-button--secondary[aria-label*=\"connect\"]",
   SendButtonFromSendInviteModal = "div.send-invite button.artdeco-button--primary",
   SendInMailsModalDismissButton = "#artdeco-modal-outlet .artdeco-modal__dismiss",
   CloseSendInMailsModalButton = '.msg-overlay-bubble-header__control .artdeco-button__icon[data-test-icon="close-small"]',
